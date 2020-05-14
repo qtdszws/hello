@@ -1,0 +1,19 @@
+{
+    "name": "qtdszws/hello",
+    "description": "an example of composer package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qtdszws",
+            "email": "zws@ahou.edu.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "autoload": {
+	"psr-4": {
+		 "Hello\\": "src/"
+	}
+     }
+					 
+}
